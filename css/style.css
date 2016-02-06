@@ -205,31 +205,69 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*ABOUT.HTML--------------------------------*/
 
+.hero-container {
+/*	background-color: magenta;*/
+	padding: 20px;
+}
+
 .about-hero img {
+	max-width: 1200px;
 	width: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+.about-hero h1 {
+}
+
+.resume {
+	padding: 20px;
+	max-width: 750px;
+}
+
+.resume h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #A2A2A2;
+	font-weight: 300;
+	margin: 40px 0 20px 0;
+}
+
+.resume h4 {
+	font-size: 21px;
+	margin-bottom: 0;
+
+}
+
+.resume h5 {
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: 2px;
+	margin-bottom: 10px;
+
+}
+
+.skillset-container p, .tools-container p {
+	display: inline-block;
+	margin: 0 5px 10px 0;
+	background-color: #f2f2f2;
+	padding: 5px 15px;
+	border-radius: 5px;
+	font-weight: 300;
+	font-size: 14px;
+
 }
 
 
+/*PROCESS.HTML--------------------------------*/
 
-
-
-
-
-
-
-
-
+.process {
+	display: block;
+	margin: 0 auto;
+	padding: 40px;
+}
 
 
 
