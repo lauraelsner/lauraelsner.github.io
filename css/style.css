@@ -27,16 +27,224 @@ body {
   color: black;
   font-size: 16px;
   background: white;
+  font-family: "Lato", Verdana, Sans-Serif;
 }
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	margin: 0;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 46px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+/*-------------------------------------------
+/*GLOBAL STYLES
+/-------------------------------------------*/
+
+/*HEADER-------------------------------------*/
+
+.header {
+	background-color: cyan;	
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+	margin: 10px 0 0 20px;
+	float: left;
+	line-height: 1em;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	margin-top: 40px;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+.header li {
+	display: inline-block;
+	margin: 0 20px;
+	list-style-type: none;
+}
+
+
+/*FOOTER----------------------------------------*/
+
+blockquote {
+	margin: 0;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.actual-quote {
+	padding: 20px;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	font-style: italic;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+.bottom-bar {
+	background-color: #272A32;
+}
+
+.bottom-bar p {
+	margin: 0;
+	color: #f2f2f2;
+	padding: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.social {
+	padding: 10px 20px 20px 20px;
+	text-align: center;
+}
+
+.social a {
+	color: #f2f2f2;
+	font-weight: 300;
+	padding: 0 10px;
+	text-align: center;
+}
+
+
+
+/*-------------------------------------------
+/*PAGES
+/-------------------------------------------*/
+ 
+/*INDEX.HTML-------------------------------*/
+
+main {
+	margin: 0;
+}
+
+.hero {
+	margin-top: 0;
+	height: 400px;
+	background-size: repeat;
+	background-color: #f2f2f2;
+	/*background-image: url(../images/bg-graph.jpg);*/
+}
+
+.hero .description {
+	margin: 0 auto;
+	display: inline;
+	padding: 60px;
+}
+
+.hero h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.hero h2 {
+	text-align: center;
+}
+
+.do .wrapper {
+	margin: 0 auto;
+}
+
+.do {
+	background-color: yellow;
+	padding: 40px;
+}
+
+.do ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 15px;
+}
+
+.do h3 {
+	margin-top: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.research, .design, .develop {
+	margin: 40px auto 0 auto;
+	text-align: center;
+}
+
+.research-icon img, .design-icon img, .develop-icon img{
+	border-radius: 100%;
+	width: 200px;
+	padding: 20px;
+	background-color: magenta;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT.HTML--------------------------------*/
+
+.about-hero img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------------
 /* LAYOUT
 /-------------------------------------------*/
 
-/*-------------------------------------------
-/* PAGES
-/-------------------------------------------*/
 
-/*-------------------------------------------
-/* SECTIONS
-/-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
