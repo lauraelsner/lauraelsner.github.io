@@ -222,9 +222,15 @@ main {
 .about-hero h1 {
 }
 
+.resume-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 .resume {
 	padding: 20px;
 	max-width: 750px;
+
 }
 
 .resume h3 {
