@@ -135,6 +135,7 @@ blockquote {
 	font-size: 18px;
 	text-align: center;
 	font-style: italic;
+	font-family: "Merriweather";
 	margin: 0 auto;
 	background-color: #f2f2f2;
 }
@@ -212,9 +213,13 @@ main {
 }
 
 .do ul {
-	list-style-type: none;
+	/*list-style-type: none;*/
 	padding-left: 0;
 	margin-top: 15px;
+}
+
+.do li {
+	line-height: 1.5em;
 }
 
 .do h3 {
@@ -223,26 +228,28 @@ main {
 	text-align: center;
 }
 
-.research, .design, .develop {
-	margin: 40px auto 0 auto;
+.do p {
 	text-align: center;
 }
 
+.do .wrapper {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.research, .design, .develop {
+	/*text-align: center;*/
+	float: left;
+	width: 30%;
+	margin: 10px;
+}
+
 .research-icon img, .design-icon img, .develop-icon img{
-	border-radius: 100%;
-	width: 200px;
-	padding: 20px;
-	/*background-color: magenta;*/
+	max-width: 100%;
+	margin: 0 auto;
 }
 
-/*.design-icon img {
-	background-color: yellow;
-}
 
-.develop-icon img {
-	background-color: cyan;
-}
-*/
 
 /*ABOUT.HTML--------------------------------*/
 

@@ -1,9 +1,0 @@
-/*smaller screen style overrides*/
-@media screen and (max-width: 800px) {
-	
-	/*INDEX.HTML-------------------------------*/
-	.hero {
-		height: 400px;
-	}
-
-}
