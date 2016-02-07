@@ -32,8 +32,8 @@ body {
 
 a {
 	color: black;
-	font-family: 'Lato', Verdana, Sans-Serif;
 	text-decoration: none;
+	font-family: 'Lato', Verdana, Sans-Serif;
 }
 
 ul {
@@ -70,23 +70,23 @@ h3 {
 }
 
 .wrapper {
-	max-width: 1200px;
 	margin: 0 auto;
+	max-width: 1200px;
 }
 
 .logo {
+	float: left;
 	width: 80px;
 	height: 80px;
-	margin: 10px 0 0 20px;
-	float: left;
 	line-height: 1em;
+	margin: 10px 0 0 20px;
 	display: inline-block;
 }
 
 nav {
-	display: inline-block;
 	float: right;
 	margin-top: 40px;
+	display: inline-block;
 }
 
 nav ul {
@@ -94,8 +94,8 @@ nav ul {
 }
 
 .header li {
-	display: inline-block;
 	margin: 0 20px;
+	display: inline-block;
 	list-style-type: none;
 	font-family: 'Lato', Verdana, Sans-Serif;
 
@@ -106,10 +106,10 @@ nav ul {
 }
 
 .color-1, .color-2, .color-3 {
+	float: left;
+	height: 10px;
 	width: 33.3333%;
 	background-color: #0c1259;
-	height: 10px;
-	float: left;
 }
 
 .color-2 {
@@ -125,19 +125,19 @@ nav ul {
 
 blockquote {
 	margin: 0;
-	max-width: 600px;
 	margin: 0 auto;
+	max-width: 600px;
 }
 
 .actual-quote {
 	padding: 20px;
-	font-weight: 300;
+	margin: 0 auto;
 	font-size: 18px;
+	font-weight: 300;
 	text-align: center;
 	font-style: italic;
-	font-family: "Merriweather";
-	margin: 0 auto;
 	background-color: #f2f2f2;
+	font-family: "Merriweather";
 }
 
 .bottom-bar {
@@ -146,21 +146,21 @@ blockquote {
 
 .bottom-bar p {
 	margin: 0;
-	color: #f2f2f2;
 	padding: 20px;
+	color: #f2f2f2;
 	font-weight: 300;
 	text-align: center;
 }
 
 .social {
-	padding: 10px 20px 20px 20px;
 	text-align: center;
+	padding: 10px 20px 20px 20px;
 }
 
 .social a {
 	color: #f2f2f2;
-	font-weight: 300;
 	padding: 0 10px;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -177,20 +177,20 @@ main {
 }
 
 .hero {
+	width: 100%;
 	margin-top: 0;
 	height: 800px;
-	width: 100%;
 	padding: 40px;
 	background-size: cover;
 	background-color: #f2f2f2;
 	box-shadow:inset -1px -1px 30px #30303A;
-	/*background-image: url(../images/code.jpg);*/
+	background-image: url(../images/code.jpg);
 }
 
 .hero .description {
+	padding: 60px;
 	margin: 0 auto;
 	display: inline;
-	padding: 60px;
 	background-color: black:
 }
 
@@ -237,16 +237,40 @@ main {
 	max-width: 800px;
 }
 
-.research, .design, .develop {
+.thing {
 	/*text-align: center;*/
-	float: left;
 	width: 30%;
+	float: left;
 	margin: 10px;
 }
 
-.research-icon img, .design-icon img, .develop-icon img{
-	max-width: 100%;
+.thing-img {
+	text-align: center;
+}
+
+/*PORTFOLIO.HTML--------------------------------*/
+
+.project {
+	margin-top: 20px;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.project .wrapper {
+	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.project img {
+	float: left;
+	width: 35%;
+	margin: 40px;
+}
+
+.project-info {
+	float: left;
+	margin-top: 40px;
+	max-width: 45%;
+	display: inline-block;
 }
 
 
@@ -254,23 +278,22 @@ main {
 /*ABOUT.HTML--------------------------------*/
 
 .hero-container {
-/*	background-color: magenta;*/
 	padding: 20px;
 }
 
 .about-hero img {
-	max-width: 1024px;
 	width: 100%;
 	display: block;
 	margin: 0px auto;
+	max-width: 1024px;
 }
 
 .about-hero h1 {
 }
 
 .resume-wrapper {
-	max-width: 1024px;
 	margin: 0 auto;
+	max-width: 1024px;
 }
 
 .resume {
@@ -280,8 +303,8 @@ main {
 }
 
 .resume h3 {
-	font-size: 16px;
 	color: #A2A2A2;
+	font-size: 16px;
 	font-weight: 400;
 	margin: 40px 0 20px 0;
 	text-transform: uppercase;
@@ -306,12 +329,12 @@ main {
 }
 
 .skillset-container p, .tools-container p {
-	display: inline-block;
-	margin: 0 5px 10px 0;
+	font-size: 14px;
+	font-weight: 400;
 	padding: 5px 15px;
 	border-radius: 5px;
-	font-weight: 400;
-	font-size: 14px;
+	margin: 0 5px 10px 0;
+	display: inline-block;
 	background-color: #f2f2f2;
 	font-family: 'Lato', Verdana, Sans-Serif;
 
@@ -321,9 +344,9 @@ main {
 /*PROCESS.HTML--------------------------------*/
 
 .process {
+	padding: 40px;
 	display: block;
 	margin: 0 auto;
-	padding: 40px;
 }
 
 
