@@ -265,8 +265,8 @@ main {
 }
 
 .project .wrapper {
-	max-width: 1200px;
 	margin: 0 auto;
+	max-width: 1025px;
 }
 
 .project img {
@@ -275,7 +275,7 @@ main {
 	margin: 40px;
 }
 
-.project-info {
+.info {
 	float: left;
 	margin-top: 40px;
 	max-width: 45%;
