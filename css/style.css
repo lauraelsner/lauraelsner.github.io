@@ -55,7 +55,7 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
-	font-family: 'Lato', Verdana, Sans-Serif;
+	font-family: 'Merriweather', Verdana, Sans-Serif;
 }
 
 /*-------------------------------------------
@@ -65,17 +65,9 @@ h3 {
 /*HEADER-------------------------------------*/
 
 .header {
-	/*background-color: #D4E5F5;	*/
-/*	position: fixed;*/
 	width: 100%;
-/*	margin-top: 0;*/
 	border-bottom: 1px solid #f2f2f2;
-	/*transition: background-color 0.5s ease;*/
 }
-
-/*.header:hover {
-	background-color: #D4E5F5;	
-}*/
 
 .wrapper {
 	margin: 0 auto;
@@ -95,11 +87,11 @@ h3 {
 	font-size: 30px;
 	font-weight: 800;
 	font-family: 'Merriweather', Serif;
-	transition: color .2s ease-out;
+	transition: color .1s ease-out;
 }
 
 .logo h1:hover {
-	color: #D4E5F5;
+	color: #00BAC6;
 	cursor: pointer;
 }
 
@@ -114,11 +106,11 @@ nav ul {
 }
 
 nav a:hover {
-	border-bottom: 3px solid #D4E5F5;
+	border-bottom: 3px solid #00BAC6;
 }
 
 nav a.current {
-	border-bottom: 3px solid #D4E5F5;
+	border-bottom: 3px solid #00BAC6;
 }
 
 .header li {
@@ -190,24 +182,28 @@ main {
 	padding: 40px;
 	background-size: cover;
 	background-color: #f2f2f2;
-	/*box-shadow:inset -1px -1px 30px #30303A;*/
-	background-image: url(../images/code.jpg);
+	box-shadow:inset -1px -1px 30px #30303A;
+	background-image: url(../images/hero-drawing.jpg);
 }
 
 .hero .description {
 	padding: 60px;
 	margin: 0 auto;
 	display: inline;
-	background-color: #2D2D2D:
+	background-color: #008FCC:
 }
 
 .hero h1 {
-	margin: 0;
+	margin-top: 50px;
 	text-align: center;
 }
 
 .hero h2 {
 	text-align: center;
+}
+
+.description h1 {
+	/*text-shadow: 2px 2px #f2f2f2;	*/
 }
 
 .do .wrapper {
@@ -279,7 +275,7 @@ main {
 }
 
 .project:hover {
-	background-color: #D4E5F5;
+	background-color: #f2f2f2;
 	cursor: pointer;
 }
 
@@ -322,7 +318,7 @@ main {
 	font-size: 21px;
 	margin-bottom: 0;
 	font-weight: 700;
-	font-family: 'Lato', Verdana, Sans-Serif;
+	font-family: 'Merriweather', Verdana, Sans-Serif;
 
 }
 
@@ -354,12 +350,95 @@ main {
 	padding: 40px;
 	display: block;
 	margin: 0 auto;
+	width: 60%;
+}
+
+/*PROJECT.HTML--------------------------------*/
+
+/*subnav bar*/
+
+.subnav-bar {
+
+}
+
+.previous {
+	width: 33.333%;
+	background-color: #f2f2f2;
+	float: left;
+	text-align: right;
+	padding: 5px;
+}
+
+.projects {
+	width: 33.333%;
+	background-color: #f2f2f2;
+	float: left;
+	text-align: center;
+	padding: 5px;
+}
+
+.next {
+	width: 33.333%;
+	background-color: #f2f2f2;
+	float: left;
+	text-align: center;
+	padding: 5px;
+}
+
+.subnav-bar a:hover {
+	color: #00BAC6;
+}
+
+/*section: project heading*/
+
+.project-heading-container {
+	padding: 40px;
+	max-width: 1025px;
+	margin: 0 auto;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.project-img {
+	text-align: center;
+}
+
+.project-img img {
+	max-width: 750px;
+}
+
+.left-wrapper {
+	width: 35%;
+	float: left;
+}
+
+.right-wrapper {
+	width: 50%;
+	float: left;
+	margin-left: 20px;
+}
+
+/*section: steps*/
+
+.steps .wrapper {
+	max-width: 1025px;
+}
+
+.steps .wrapper img {
+	max-width: 750px;
+}
+
+.step-1 span {
+	background-color: blue;
+}
+
+.step-1 .content {
+	display: inline;
+	float: left;
 }
 
 
-
 /*-------------------------------------------
-/* LAYOUT
+/* MEDIA QUERIES (LAYOUT)
 /-------------------------------------------*/
 
 @media screen and (max-width: 1024px) {
