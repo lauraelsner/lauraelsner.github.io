@@ -129,26 +129,6 @@ nav a.current {
 
 }
 
-.colors {
-	display: inline;
-}
-
-.color-1, .color-2, .color-3 {
-	float: left;
-	height: 10px;
-	width: 33.3333%;
-	background-color: #0c1259;
-}
-
-.color-2 {
-	background-color: #0c3f43;
-}
-
-.color-3 {
-	background-color: #0c5838;
-}
-
-
 /*FOOTER----------------------------------------*/
 
 blockquote {
@@ -238,15 +218,6 @@ main {
 	padding: 40px;
 }
 
-.do ul {
-	padding-left: 0;
-	margin-top: 15px;
-}
-
-.do li {
-	line-height: 1.5em;
-}
-
 .do h2 {
 	text-align: center;
 }
@@ -268,13 +239,17 @@ main {
 }
 
 .thing {
-	width: 30%;
+	width: 25%;
 	float: left;
 	margin: 20px;
 }
 
 .thing-img {
 	text-align: center;
+}
+
+.thing-container {
+	margin: 0 auto;
 }
 
 /*PORTFOLIO.HTML--------------------------------*/
@@ -387,6 +362,12 @@ main {
 /* LAYOUT
 /-------------------------------------------*/
 
+@media screen and (max-width: 1024px) {
+	
+
+
+}
+
 @media screen and (max-width: 800px) {
 	
 	/*INDEX.HTML-------------------------------*/
@@ -394,7 +375,16 @@ main {
 		height: 400px;
 	}
 
+	.thing {
+		width: 100%;
+		float: left;
+
+	}
+
+
+
 }
+
 
 
 
