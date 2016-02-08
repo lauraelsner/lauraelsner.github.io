@@ -24,14 +24,14 @@ html {
 /* BASE STYLES
 /-------------------------------------------*/
 body {
-  color: black;
-  font-size: 16px;
+  color: #2D2D2D;
+  font-size: 18px;
   background: white;
   font-family: "Lato", Verdana, Sans-Serif;
 }
 
 a {
-	color: black;
+	color: #2D2D2D;
 	text-decoration: none;
 	font-family: 'Lato', Verdana, Sans-Serif;
 }
@@ -43,12 +43,12 @@ ul {
 h1 {
 	font-size: 46px;
 	font-weight: 800;
-	font-family: 'Lato', Verdana, Sans-Serif;
-
+	font-family: 'Merriweather', Serif;
 }
 
 h2 {
 	font-size: 22px;
+	margin-top: 0;
 	text-transform: uppercase;
 	font-family: 'Lato', Verdana, Sans-Serif;
 }
@@ -93,6 +93,14 @@ h3 {
 
 .logo h1 {
 	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Merriweather', Serif;
+	transition: color .2s ease-out;
+}
+
+.logo h1:hover {
+	color: #D4E5F5;
+	cursor: pointer;
 }
 
 nav {
@@ -103,6 +111,14 @@ nav {
 
 nav ul {
 	padding-left: 0;
+}
+
+nav a:hover {
+	border-bottom: 3px solid #D4E5F5;
+}
+
+nav a.current {
+	border-bottom: 3px solid #D4E5F5;
 }
 
 .header li {
@@ -138,7 +154,7 @@ nav ul {
 blockquote {
 	margin: 0;
 	margin: 0 auto;
-	max-width: 600px;
+	max-width: 750px;
 }
 
 .actual-quote {
@@ -147,9 +163,8 @@ blockquote {
 	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
-	font-style: italic;
 	background-color: #f2f2f2;
-	font-family: "Merriweather";
+	font-family: "Merriweather", Serif;
 }
 
 .bottom-bar {
@@ -203,7 +218,7 @@ main {
 	padding: 60px;
 	margin: 0 auto;
 	display: inline;
-	background-color: black:
+	background-color: #2D2D2D:
 }
 
 .hero h1 {
@@ -232,10 +247,15 @@ main {
 	line-height: 1.5em;
 }
 
+.do h2 {
+	text-align: center;
+}
+
 .do h3 {
 	margin-top: 0;
 	padding-top: 20px;
 	text-align: center;
+	max-width: 1025px;
 }
 
 .do p {
@@ -244,13 +264,13 @@ main {
 
 .do .wrapper {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 1200px;
 }
 
 .thing {
 	width: 30%;
 	float: left;
-	margin: 10px;
+	margin: 20px;
 }
 
 .thing-img {
@@ -262,6 +282,7 @@ main {
 .project {
 	margin-top: 20px auto;
 	border-bottom: 1px solid #f2f2f2;
+	transition: background-color .2s ease-out;
 }
 
 .project .wrapper {
@@ -271,7 +292,7 @@ main {
 
 .project img {
 	float: left;
-	width: 35%;
+	width: 40%;
 	margin: 40px;
 }
 
@@ -280,6 +301,11 @@ main {
 	margin-top: 40px;
 	max-width: 45%;
 	display: inline-block;
+}
+
+.project:hover {
+	background-color: #D4E5F5;
+	cursor: pointer;
 }
 
 
