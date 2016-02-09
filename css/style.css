@@ -183,7 +183,7 @@ main {
 	background-size: cover;
 	background-color: #f2f2f2;
 	box-shadow:inset -1px -1px 30px #30303A;
-	background-image: url(../images/hero-drawing.jpg);
+	/*background-image: url(../images/hero-drawing.jpg);*/
 }
 
 .hero .description {
@@ -346,64 +346,104 @@ main {
 
 /*PROCESS.HTML--------------------------------*/
 
-.process {
-	padding: 40px;
-	display: block;
-	margin: 0 auto;
-	width: 60%;
+.placeholder {
+	height: 600px;
+	color: #f1f1f1;
+	font-size: 100px;
+	text-align: center;
+	background-color: #E5EFF1;
 }
+
+.placeholder img {
+	width: 200px;
+}
+
+
 
 /*PROJECT.HTML--------------------------------*/
 
 /*subnav bar*/
-
 .subnav-bar {
+	background-color: #f2f2f2;
+	height: 30px;
+}
 
+.wrapper {
+	max-width: 1025px;
+	margin: 0 auto;
 }
 
 .previous {
-	width: 33.333%;
-	background-color: #f2f2f2;
 	float: left;
-	text-align: right;
-	padding: 5px;
+	width: 33.333%;
+	text-align: left;
+	padding-left: 20px;
+	transition: color .2s ease-out;
 }
 
 .projects {
-	width: 33.333%;
-	background-color: #f2f2f2;
 	float: left;
+	width: 33.333%;
 	text-align: center;
-	padding: 5px;
+	transition: color .2s ease-out;
 }
 
 .next {
-	width: 33.333%;
-	background-color: #f2f2f2;
 	float: left;
-	text-align: center;
-	padding: 5px;
+	width: 33.333%;
+	text-align: right;
+	padding-right: 10px;
+	transition: color .2s ease-out;
 }
 
-.subnav-bar a:hover {
-	color: #00BAC6;
+.previous:hover {
+	color: #C2C2C2;
+}
+
+.projects:hover {
+	color: #C2C2C2;
+}
+
+.next:hover {
+	color: #C2C2C2;
+}
+
+.subnav-bar .wrapper a {
+	font-size: 14px;
+	line-height: 2em;
+	text-transform: uppercase;
 }
 
 /*section: project heading*/
 
 .project-heading-container {
 	padding: 40px;
-	max-width: 1025px;
 	margin: 0 auto;
+	max-width: 1025px;
+}
+
+.project-heading-container h3 {
+	margin: 0 0 5px 0;
+	text-transform: none;
+	font-family: 'Merriweather', Serif;
+}
+
+.project-heading h5 {
+	color: #CECECE;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+	font-style: italic;
+	font-family: "Merriweather", Serif;
+}
+
+.project-heading-container p {
+	font-size: 16px;
+}
+
+.project-heading .wrapper {
+	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
-}
-
-.project-img {
-	text-align: center;
-}
-
-.project-img img {
-	max-width: 750px;
 }
 
 .left-wrapper {
@@ -429,11 +469,13 @@ main {
 
 .step-1 span {
 	background-color: blue;
+	max-width: 30%;
+	display: inline-block;
 }
 
 .step-1 .content {
+	/*float: left;*/
 	display: inline;
-	float: left;
 }
 
 
