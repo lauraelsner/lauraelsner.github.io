@@ -27,6 +27,7 @@ body {
   color: #2D2D2D;
   font-size: 18px;
   background: white;
+  padding-top: 71px;
   font-family: "Lato", Verdana, Sans-Serif;
 }
 
@@ -66,6 +67,10 @@ h3 {
 
 .header {
 	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	background-opacity: .3;
 	border-bottom: 1px solid #f2f2f2;
 }
 
@@ -275,7 +280,7 @@ main {
 }
 
 .project:hover {
-	background-color: #f2f2f2;
+	background-color: #E5EFF1;
 	cursor: pointer;
 }
 
@@ -348,8 +353,8 @@ main {
 
 .placeholder {
 	height: 600px;
-	color: #f1f1f1;
-	font-size: 100px;
+	color: #fff;
+	font-size: 30px;
 	text-align: center;
 	background-color: #E5EFF1;
 }
@@ -364,8 +369,9 @@ main {
 
 /*subnav bar*/
 .subnav-bar {
-	background-color: #f2f2f2;
+	background-color: #E5EFF1;
 	height: 30px;
+
 }
 
 .wrapper {
@@ -420,13 +426,22 @@ main {
 	padding: 0 20px;
 	margin: 40px auto;
 	max-width: 1025px;
-	background-color: magenta;
+	/*background-color: magenta;*/
 }
 
 .project-heading-container h3 {
 	margin: 0 0 5px 0;
 	text-transform: none;
 	font-family: 'Merriweather', Serif;
+}
+
+.project-heading h4 {
+	color: #A2A2A2;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 25px 0 20px 0;
+	text-transform: uppercase;
+	font-family: 'Lato', Verdana, Sans-Serif;
 }
 
 .project-heading h5 {
@@ -440,6 +455,13 @@ main {
 
 .project-heading-container p {
 	font-size: 16px;
+	margin-top: 0;
+}
+
+.project-heading-container img {
+	max-width: 80%;
+	display: inline-block;
+	text-align: center;
 }
 
 .project-heading .wrapper {
@@ -460,42 +482,56 @@ main {
 /*section: steps*/
 
 .project-container {
-	margin: 40px auto;
 	padding: 0 20px;
+	margin: 40px auto;
 	max-width: 1025px;
 	border-top: 1px solid #f2f2f2;
+	/*background-color: cyan;*/
+}
 
-	background-color: cyan;
+.wrapper-step {
+	display: inline-block;
 }
 
 .wrapper-step h2 {
 	float: left;
-	font-size: 50px;
-	text-transform: uppercase;
-	margin-top: 10px;
-	height: 40px;
-	max-width: 30%;
+/*	height: 40px;*/
+	max-width: 35%;
+	color: #CECECE;
+	font-size: 40px;
+	margin-top: 27px;
 	margin-right: 40px;
+	text-transform: uppercase;
 }
 
 .wrapper-content {
 	float: left;
-	max-width: 70%;
+	max-width: 50%;
 	display: inline-block;
 }
 
 .deliverable {
-	margin: 0 auto;
-	max-width: 1025px;
-	background-color: yellow;
 	padding: 20px;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+	max-width: 1025px;
 }
 
 .deliverable img {
-	max-width: 90%;
 	margin: auto;
+	max-width: 90%;
 	display: inline-block;
 }
+
+.project-container h3 {
+	color: #A2A2A2;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 40px 0 20px 0;
+	text-transform: uppercase;
+	font-family: 'Lato', Verdana, Sans-Serif;
+}
+
 
 /*-------------------------------------------
 /* MEDIA QUERIES (LAYOUT)
