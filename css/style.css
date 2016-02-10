@@ -183,7 +183,7 @@ main {
 	background-size: cover;
 	background-color: #f2f2f2;
 	box-shadow:inset -1px -1px 30px #30303A;
-	/*background-image: url(../images/hero-drawing.jpg);*/
+	background-image: url(../images/hero-drawing.jpg);
 }
 
 .hero .description {
@@ -417,9 +417,10 @@ main {
 /*section: project heading*/
 
 .project-heading-container {
-	padding: 40px;
-	margin: 0 auto;
+	padding: 0 20px;
+	margin: 40px auto;
 	max-width: 1025px;
+	background-color: magenta;
 }
 
 .project-heading-container h3 {
@@ -443,7 +444,6 @@ main {
 
 .project-heading .wrapper {
 	border-top: 1px solid #f2f2f2;
-	border-bottom: 1px solid #f2f2f2;
 }
 
 .left-wrapper {
@@ -459,25 +459,43 @@ main {
 
 /*section: steps*/
 
-.steps .wrapper {
+.project-container {
+	margin: 40px auto;
+	padding: 0 20px;
 	max-width: 1025px;
+	border-top: 1px solid #f2f2f2;
+
+	background-color: cyan;
 }
 
-.steps .wrapper img {
-	max-width: 750px;
-}
-
-.step-1 span {
-	background-color: blue;
+.wrapper-step h2 {
+	float: left;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	height: 40px;
 	max-width: 30%;
+	margin-right: 40px;
+}
+
+.wrapper-content {
+	float: left;
+	max-width: 70%;
 	display: inline-block;
 }
 
-.step-1 .content {
-	/*float: left;*/
-	display: inline;
+.deliverable {
+	margin: 0 auto;
+	max-width: 1025px;
+	background-color: yellow;
+	padding: 20px;
 }
 
+.deliverable img {
+	max-width: 90%;
+	margin: auto;
+	display: inline-block;
+}
 
 /*-------------------------------------------
 /* MEDIA QUERIES (LAYOUT)
