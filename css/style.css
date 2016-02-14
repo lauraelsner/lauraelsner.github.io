@@ -468,6 +468,7 @@ main {
 .project-heading .container h3 {
 	margin: 0 0 5px 0;
 	text-transform: none;
+	border-bottom: 2px solid black;
 	font-family: 'Merriweather', Verdana, Sans-Serif;
 }
 
@@ -482,7 +483,7 @@ main {
 
 .project-heading h3 span {
 	color: #CECECE;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 300;
 	margin: 0 0 10px 0;
 	font-style: italic;
@@ -566,12 +567,12 @@ main {
 @media screen and (max-width: 1024px) {
 	
 
-
 }
 
 @media screen and (max-width: 800px) {
 	
-	/*INDEX.HTML-------------------------------*/
+/*INDEX.HTML*/
+
 	.hero {
 		height: 400px;
 	}
@@ -579,9 +580,51 @@ main {
 	.thing {
 		width: 100%;
 		float: left;
-
 	}
 
+}
+
+
+@media screen and (max-width: 600px) {
+
+/*PORTFOLIO.HTML*/
+
+	.project .wrapper img {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+	}
+
+	.info {
+		max-width: 100%;
+		padding: 20px;
+		margin-top: 0;
+		transition: opacity .3s ease-out;
+	}
+
+	.info:hover {
+		opacity: .5
+	}
+
+	.info h3 {
+		margin: 0;
+	}
+
+	.project:hover {
+		cursor: pointer;
+		background-color: #fff;
+	}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+/*PORTFOLIO.HTML*/
+
+	nav {
+		display: none;
+	}
 
 
 }
