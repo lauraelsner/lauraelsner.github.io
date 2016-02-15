@@ -358,14 +358,16 @@ main {
 	display: inline-block;
 	border: 1px solid #00BCC8;
 	transition: all .1s ease-out;
-	background-color: rgba(0, 188, 200, .1);
+	background-color: #fff;
 }
 
 .button:hover {
-	color: #7C8081;
 	cursor: pointer;
-	background-color: #fff;
-	border: 1px solid #7C8081;
+	background-color: rgba(0, 188, 200, .1);
+}
+
+.button:active {
+	background-color: rgba(0, 188, 200, .1);
 }
 
 .resume-wrapper {
