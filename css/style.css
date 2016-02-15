@@ -276,7 +276,7 @@ main {
 }
 
 .project-page-container {
-	padding-top: 30px;
+	padding-top: 60px;
 }
 
 .project {
@@ -309,6 +309,10 @@ main {
 	background-color: #f2f2f2;
 }
 
+.project:active {
+	background-color: #f2f2f2;
+}
+
 .project-container h4 {
 	font-size: 22px;
 }
@@ -329,7 +333,7 @@ main {
 
 .hero-wrapper {
 	max-width: 1025px;
-	margin: 20px auto;
+	margin: 60px auto;
 	text-align: center;
 	border-bottom: 1px solid #f2f2f2;
 }
@@ -400,7 +404,7 @@ main {
 }
 
 .skillset-container p, .tools-container p {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	padding: 5px 15px;
 	border-radius: 5px;
@@ -415,7 +419,7 @@ main {
 
 .placeholder {
 	color: #fff;
-	height: 600px;
+	height: 1000px;
 	font-size: 30px;
 	text-align: center;
 	background-color: #E5EFF1;
@@ -669,6 +673,10 @@ main {
 	.project:hover {
 		cursor: pointer;
 		background-color: #fff;
+	}
+
+	.project:active {
+		background-color: #f2f2f2;
 	}
 
 
