@@ -448,8 +448,7 @@ main {
 	line-height: 1.5em;
 	position: fixed;
 	background-color: #E5EFF1;
-	background-color: #00BAC7;
-	background-color: #f2f2f2;
+	/*background-color: #0C4B70;*/
 }
 
 .wrapper {
@@ -724,6 +723,7 @@ main {
 		width: 37px;
 		margin: 6px;
 		background-color: #00BAC9;
+		background-color: #114C6F;
 	}
 
 	.mobile-menu:hover {
@@ -753,7 +753,7 @@ main {
 	}	
 
 	.menu-open:nth-child(2) {
-    	border-bottom: 3px solid #f2f2f2;
+    	border-bottom: 3px solid #00BAC9;
 	}	
 
 	.menu-open .active {
