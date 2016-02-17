@@ -1,5 +1,5 @@
 $('.mobile-menu').on('click', function(){
-	$('.menu-open').slideToggle();
-	$('.mobile-menu').addClass('active');
+	$('.menu-open').slideToggle(200);
+	$('.menu-open').addClass('active');
 });
 
