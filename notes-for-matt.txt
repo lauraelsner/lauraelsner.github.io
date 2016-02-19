@@ -1,0 +1,6 @@
+Notes for Matt:
+
+- Designing in browser without a style guide is dangerous business - holy cow my text styles are a mess! I fully acknowledge that having a different style for every single h4 on every single page is a bad idea, but I actually want to kill Lato and use something less frilly but didn’t have time to overhaul the whole thing.
+- TLDR; Phase 2 = cleanup type.
+- Need to figure out an approach to password protecting specific pages.
+- Still need to add content. I’m realizing now why so many designers use a CMS for managing their portfolio.
